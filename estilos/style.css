@@ -14,3 +14,12 @@ body{
     background-size: cover;
     
 }
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+section#steamdeck{
+    background: url('../imagens/steamdeckimage.png');
+}
