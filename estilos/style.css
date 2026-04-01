@@ -7,12 +7,13 @@
 html,body{
     height:100vh;
     width: 100vw;
+    background-color: black;
 }
 
 body{
-    background: url('../imagens/6077811.jpg') no-repeat;
+    background: url('../imagens/6077811.jpg') no-repeat top center;
     background-size: cover;
-    
+    background-attachment: fixed;
 }
 
 main{
