@@ -22,5 +22,20 @@ main{
 }
 
 section#steamdeck{
-    background: url('../imagens/steamdeckimage.png');
+    background: url('../imagens/steamdeckimage.png') no-repeat;
+    height: 712px;
+    width: 1009px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe#tela{
+    position: relative;
+    top: 351px;
+  left: 261px;
+  height: 344px;
+  width: 557px;
+  border-radius: 5px;
 }
