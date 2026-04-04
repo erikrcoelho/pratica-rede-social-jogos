@@ -11,7 +11,7 @@ html,body{
 }
 
 body{
-    background: url('../imagens/6077811.jpg') no-repeat top center;
+    background: url('../imagens/backgroundimage.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -31,6 +31,13 @@ section#steamdeck{
     transform: translate(-50%, -50%);
 }
 
+section#jogos img{
+    border-radius: 90px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+
 iframe#tela{
     position: relative;
     top: 351px;
@@ -39,3 +46,4 @@ iframe#tela{
   width: 557px;
   border-radius: 5px;
 }
+
