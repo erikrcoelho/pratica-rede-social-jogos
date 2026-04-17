@@ -32,10 +32,16 @@ section#steamdeck{
 }
 
 section#jogos img{
-    border-radius: 90px;
+    border-radius: 50%;
     width: 60px;
     height: 60px;
-    padding: 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px black;
+}
+section#jogos img:hover{
+    border: 2px solid white;
+    transform: scale3d(1.5,1.5,1.5);
 }
 
 iframe#tela{
